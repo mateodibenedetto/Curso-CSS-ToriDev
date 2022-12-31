@@ -1,0 +1,164 @@
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+
+h1 {
+  font-size: 30px;
+  font-weight: 300;
+  margin: 10px 5px; 
+  line-height: 1.2;
+}
+
+h2 {
+  font-size: 25px;
+  font-weight: 300;
+  margin: 10px 0;
+  line-height: 1.2;
+}
+
+p {
+  font-size: 30px;
+}
+
+img {
+  width: 100%;
+}
+
+li {
+  list-style-type: none;
+}
+
+
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+  overflow: visible;
+}
+
+.navbar {
+  background-color: #614bc7;
+  height: 70px;
+  padding: 0 30px;
+}
+
+.logo {
+  font-size: 30px;
+  font-weight: 300;
+  margin: 10px 0;
+  line-height: 1.2;
+}
+
+.navbar .flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.ul {
+  display: flex;
+}
+
+.outline {
+  color: #fff;
+  padding: 9px;
+  margin: 0 10px;
+  transition: all .4s ease-in-out;
+}
+
+.outline:hover {
+  color: #ce99e4;
+}
+
+.showcase { 
+  padding-top: 2rem;
+  height: 500px;
+  background-color: #7158e2;
+  min-height: 80vh;
+}
+
+.showcase p {
+  margin-bottom: 30px;
+}
+
+.showcase img {
+  box-shadow: 7px 7px 7px rgba(0, 0, 0, .2);
+}
+
+.showcase-form {
+  padding-left: 7px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-item1, .grid-item2 {
+  position: relative;
+  top: 50px;
+}
+
+.showcase input[type='email'] {
+  padding: .6rem 1.5rem;
+  font-size: 14px;
+  border: none;
+  outline: none;
+  border-radius: 6px;
+  padding-left: 6px;
+}
+
+.showcase input[type='email']::placeholder {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.btn {
+  border-radius: 6px;
+  padding: 12px 20px;
+  background: #7d5fff;
+  border: none;
+  margin-left: 10px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.shocase-form {
+  margin: auto;
+}
+
+.little-info {
+  font-size: 15px;
+  margin-top: 15px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.footer { 
+  background-color: #614bc7;
+  padding: 1rem;
+}
+
+.container-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.copy {
+  font-size: 16px;
+}
